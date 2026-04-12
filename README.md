@@ -1,5 +1,5 @@
 # Compiler-Construction
-It is a compiler, completely written in C, for a toy language. This project was done as part of coursework of Compiler Construction course at BITS Pilani. The langugage (referred to as ERPLAG henceforth) specifications can be found at [Language Specifications](Language%20specifications.pdf).
+It is a compiler, completely written in C, for a toy language. The langugage (referred to as ERPLAG henceforth) specifications can be found at [Language Specifications](Language%20specifications.pdf).
 The input given is the program written in ERPLAG. The compiler's output is 32-bit assembly code. This assembly code is converted to machine code using NASM.
 
 ## Index
