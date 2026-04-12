@@ -1,0 +1,18 @@
+<<module f1>>
+takes input [a:integer, b:integer];
+returns [c:integer];
+start
+	c := a + b;
+end
+
+<<<driver program>>>
+start
+	declare a,b:real;
+	declare k:boolean;
+	get_value(a);
+	**get_value(b);**
+	print(a);
+	**print(b);**
+	k := a == 5.67;
+	print(k);
+end

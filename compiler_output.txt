@@ -1,0 +1,31 @@
+----------------------------------------------------------------------------------------------
+Compiler Ready
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+
+Options:
+Press 0 : EXIT 
+Press 1 : LEXER: All tokens printed 
+Press 2 : PARSER: Inorder traversal of ParseTree 
+Press 3 : AST: Preorder Traversal of AST 
+Press 4 : MEMORY: Compression Ratio Analysis
+Press 5 : SYMBOL TABLE
+Press 6 : Activation Record Size
+Press 7 : Static and Dynamic Arrays
+Press 8 : Error Reporting and total compile time
+Press 9 : Code Generation
+What would you like to do? Option: ----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+
+Options:
+Press 0 : Exit 
+Press 1 : LEXER 
+Press 2 : PARSER 
+Press 3 : AST PREORDER TRAVERSAL
+Press 4 : Memory 
+Press 5 : Symbol Table
+Press 6 : Activation Record Size
+Press 7 : Static and Dynamic Arrays
+Press 8 : Error Reporting and total compile time
+Press 9 : Code Generation
+What would you like to do? Option: ----------------------------------------------------------------------------------------------

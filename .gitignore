@@ -1,0 +1,7 @@
+compiler
+*.o
+*.asm
+*.dSYM
+.DS_Store
+.claude
+winlibs-gcc.zip
