@@ -153,12 +153,6 @@ gcc -m32 code.o -o code
 ## Demo [[Index](#index)]
 ![Demo gif](Demo.gif)
 
-## Credits [[Index](#index)]
-This was a group project. Other contributors are:
-* [Akshit Khanna](https://github.com/ra1ph2)
-* [Aryan Mehra](https://github.com/aryanmehra1999)
-* [Swadesh Vaibhav](https://github.com/swadesh-vaibhav)
-
 ## Disclaimer [[Index](#index)]
 The code present here is just for aiding the understanding of students pursuing this course in the future. This repository is not supposed to be used for any unfair means by the readers. The author is not responsible for any unfair use of the code present here.
 
