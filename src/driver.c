@@ -811,6 +811,14 @@ int main(int argc, char * argv[])
                     pre_process(fpx);
                     nasmRecur(ircode->code, tbStack, symT, fpx);
                     fclose(fpx);
+                    printf("\nCode generation successful! Assembly code written to %s\n\n", argv[2]);
+                    printf("================== GENERATED ASSEMBLY CODE ==================\n");
+                    fpx = fopen(argv[2], "r");
+                    char ch;
+                    while((ch = fgetc(fpx)) != EOF)
+                        printf("%c", ch);
+                    fclose(fpx);
+                    printf("\n=============================================================\n");
                     break;
                 
             
