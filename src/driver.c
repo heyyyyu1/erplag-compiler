@@ -210,7 +210,8 @@ int main(int argc, char * argv[])
     printf("Press 6 : Activation Record Size\n");
     printf("Press 7 : Static and Dynamic Arrays\n");
     printf("Press 8 : Error Reporting and total compile time\n");
-    printf("Press 9 : Code Generation\n");   
+    printf("Press 9 : Code Generation\n");
+    printf("Press 10: COMPILER STATISTICS DASHBOARD (All Stats in One View)\n");
     printf("What would you like to do? Option: ");
     scanf("%d",&option);
     printf("----------------------------------------------------------------------------------------------\n");
@@ -299,7 +300,8 @@ int main(int argc, char * argv[])
                         printf("Press 6 : Activation Record Size\n");
                         printf("Press 7 : Static and Dynamic Arrays\n");
                         printf("Press 8 : Error Reporting and total compile time\n");
-                        printf("Press 9 : Code Generation\n");   
+                        printf("Press 9 : Code Generation\n");
+                        printf("Press 10: COMPILER STATISTICS DASHBOARD (All Stats in One View)\n");
                         printf("What would you like to do? Option: ");
                         scanf("%d",&option);
                         printf("----------------------------------------------------------------------------------------------\n");
@@ -344,7 +346,8 @@ int main(int argc, char * argv[])
                         printf("Press 6 : Activation Record Size\n");
                         printf("Press 7 : Static and Dynamic Arrays\n");
                         printf("Press 8 : Error Reporting and total compile time\n");
-                        printf("Press 9 : Code Generation\n");   
+                        printf("Press 9 : Code Generation\n");
+                        printf("Press 10: COMPILER STATISTICS DASHBOARD (All Stats in One View)\n");
                         printf("What would you like to do? Option: ");
                         scanf("%d",&option);
                         printf("----------------------------------------------------------------------------------------------\n");
@@ -402,7 +405,8 @@ int main(int argc, char * argv[])
                         printf("Press 6 : Activation Record Size\n");
                         printf("Press 7 : Static and Dynamic Arrays\n");
                         printf("Press 8 : Error Reporting and total compile time\n");
-                        printf("Press 9 : Code Generation\n");   
+                        printf("Press 9 : Code Generation\n");
+                        printf("Press 10: COMPILER STATISTICS DASHBOARD (All Stats in One View)\n");
                         printf("What would you like to do? Option: ");
                         scanf("%d",&option);
                         printf("----------------------------------------------------------------------------------------------\n");
@@ -463,7 +467,8 @@ int main(int argc, char * argv[])
                         printf("Press 6 : Activation Record Size\n");
                         printf("Press 7 : Static and Dynamic Arrays\n");
                         printf("Press 8 : Error Reporting and total compile time\n");
-                        printf("Press 9 : Code Generation\n");   
+                        printf("Press 9 : Code Generation\n");
+                        printf("Press 10: COMPILER STATISTICS DASHBOARD (All Stats in One View)\n");
                         printf("What would you like to do? Option: ");
                         scanf("%d",&option);
                         printf("----------------------------------------------------------------------------------------------\n");
@@ -521,7 +526,8 @@ int main(int argc, char * argv[])
                         printf("Press 6 : Activation Record Size\n");
                         printf("Press 7 : Static and Dynamic Arrays\n");
                         printf("Press 8 : Error Reporting and total compile time\n");
-                        printf("Press 9 : Code Generation\n");   
+                        printf("Press 9 : Code Generation\n");
+                        printf("Press 10: COMPILER STATISTICS DASHBOARD (All Stats in One View)\n");
                         printf("What would you like to do? Option: ");
                         scanf("%d",&option);
                         printf("----------------------------------------------------------------------------------------------\n");
@@ -574,7 +580,8 @@ int main(int argc, char * argv[])
                         printf("Press 6 : Activation Record Size\n");
                         printf("Press 7 : Static and Dynamic Arrays\n");
                         printf("Press 8 : Error Reporting and total compile time\n");
-                        printf("Press 9 : Code Generation\n");   
+                        printf("Press 9 : Code Generation\n");
+                        printf("Press 10: COMPILER STATISTICS DASHBOARD (All Stats in One View)\n");
                         printf("What would you like to do? Option: ");
                         scanf("%d",&option);
                         printf("----------------------------------------------------------------------------------------------\n");
@@ -643,7 +650,8 @@ int main(int argc, char * argv[])
                         printf("Press 6 : Activation Record Size\n");
                         printf("Press 7 : Static and Dynamic Arrays\n");
                         printf("Press 8 : Error Reporting and total compile time\n");
-                        printf("Press 9 : Code Generation\n");   
+                        printf("Press 9 : Code Generation\n");
+                        printf("Press 10: COMPILER STATISTICS DASHBOARD (All Stats in One View)\n");
                         printf("What would you like to do? Option: ");
                         scanf("%d",&option);
                         printf("----------------------------------------------------------------------------------------------\n");
@@ -686,7 +694,8 @@ int main(int argc, char * argv[])
                         printf("Press 6 : Activation Record Size\n");
                         printf("Press 7 : Static and Dynamic Arrays\n");
                         printf("Press 8 : Error Reporting and total compile time\n");
-                        printf("Press 9 : Code Generation\n");   
+                        printf("Press 9 : Code Generation\n");
+                        printf("Press 10: COMPILER STATISTICS DASHBOARD (All Stats in One View)\n");
                         printf("What would you like to do? Option: ");
                         scanf("%d",&option);
                         printf("----------------------------------------------------------------------------------------------\n");
@@ -755,7 +764,8 @@ int main(int argc, char * argv[])
                         printf("Press 6 : Activation Record Size\n");
                         printf("Press 7 : Static and Dynamic Arrays\n");
                         printf("Press 8 : Error Reporting and total compile time\n");
-                        printf("Press 9 : Code Generation\n");   
+                        printf("Press 9 : Code Generation\n");
+                        printf("Press 10: COMPILER STATISTICS DASHBOARD (All Stats in One View)\n");
                         printf("What would you like to do? Option: ");
                         scanf("%d",&option);
                         printf("----------------------------------------------------------------------------------------------\n");
@@ -788,7 +798,8 @@ int main(int argc, char * argv[])
                         printf("Press 6 : Activation Record Size\n");
                         printf("Press 7 : Static and Dynamic Arrays\n");
                         printf("Press 8 : Error Reporting and total compile time\n");
-                        printf("Press 9 : Code Generation\n");   
+                        printf("Press 9 : Code Generation\n");
+                        printf("Press 10: COMPILER STATISTICS DASHBOARD (All Stats in One View)\n");
                         printf("What would you like to do? Option: ");
                         scanf("%d",&option);
                         printf("----------------------------------------------------------------------------------------------\n");
@@ -820,10 +831,145 @@ int main(int argc, char * argv[])
                     fclose(fpx);
                     printf("\n=============================================================\n");
                     break;
-                
-            
 
-            default: 
+            case 10:
+                    printf("\n");
+                    printf("\033[1;36m╔══════════════════════════════════════════════════════════════════════════════╗\033[0m\n");
+                    printf("\033[1;36m║\033[0m                   \033[1;33mCOMPILER STATISTICS DASHBOARD\033[0m                              \033[1;36m║\033[0m\n");
+                    printf("\033[1;36m╚══════════════════════════════════════════════════════════════════════════════╝\033[0m\n\n");
+
+                    printf("   Compiling: \033[1;32m%s\033[0m\n\n", argv[1]);
+
+                    start_time = clock();
+
+                    printf("   [\033[1;32m█████████████████████████▶\033[0m░░░░░░░░░░░░░░░░░░░░░░░░] 50%% - Parsing Input...\n\n");
+
+                    populate_keyhash();
+                    initializeLexer(argv[1]);
+                    initializeParser();
+                    grammar = read_grammar("grammar.txt");
+                    map(grammar);
+
+                    firstSet = initializeFirst();
+                    followSet = initializeFollow();
+                    calculateFirstEquations(grammar, firstSet, firstEquations);
+                    calculateFirstSet(grammar, firstSet, firstEquations);
+
+                    calculateFollowEquations(grammar, followSet, firstSet, followEquations);
+                    calculateFollowSet(grammar, followSet, followEquations);
+
+                    parseTable = intializeParseTable();
+                    createParseTable(grammar,parseTable,firstSet,followSet);
+                    parseTree = parser(grammar, parseTable);
+
+                    printf("\033[1;34m┌─────────────────────────────────────────────────────────────────────────────┐\033[0m\n");
+                    printf("\033[1;34m│\033[0m  \033[1mPHASE 1: LEXICAL & SYNTAX ANALYSIS\033[0m                                         \033[1;34m│\033[0m\n");
+                    printf("\033[1;34m└─────────────────────────────────────────────────────────────────────────────┘\033[0m\n");
+
+                    if(LexHead != NULL || SynHead!=NULL)
+                    {
+                        printf("   \033[1;31m✗ Lexical/Syntax Analysis: FAILED\033[0m\n");
+                        printErrorList(1);
+                        printErrorList(2);
+                        printf("\n\033[1;31m╔══════════════════════════════════════════════════════════════════════════════╗\033[0m\n");
+                        printf("\033[1;31m║\033[0m                    COMPILATION FAILED - SYNTAX ERRORS                        \033[1;31m║\033[0m\n");
+                        printf("\033[1;31m╚══════════════════════════════════════════════════════════════════════════════╝\033[0m\n");
+                        break;
+                    }
+
+                    printf("   \033[1;32m✓ Lexical Analysis: PASSED\033[0m\n");
+                    printf("   \033[1;32m✓ Syntax Analysis: PASSED\033[0m\n");
+                    printf("   [\033[1;32m██████████████████████████████▶\033[0m░░░░░░░░░░░░░░░░░░░] 60%% - Creating AST...\n\n");
+
+                    ast = createAST(parseTree, NULL, NULL);
+
+                    int pm = parsememorycount(parseTree);
+                    int pc = parsecount(parseTree);
+                    int am = astmemorycount(ast);
+                    int ac = astcount(ast);
+                    float compression_ratio = (((float)pm-am)/pm)*100;
+
+                    printf("\033[1;34m┌─────────────────────────────────────────────────────────────────────────────┐\033[0m\n");
+                    printf("\033[1;34m│\033[0m  \033[1mPHASE 2: AST & MEMORY STATISTICS\033[0m                                           \033[1;34m│\033[0m\n");
+                    printf("\033[1;34m└─────────────────────────────────────────────────────────────────────────────┘\033[0m\n");
+                    printf("   Parse Tree Nodes: \033[1;33m%d\033[0m\n", pc);
+                    printf("   Parse Tree Memory: \033[1;33m%d bytes\033[0m\n", pm);
+                    printf("   AST Nodes: \033[1;33m%d\033[0m\n", ac);
+                    printf("   AST Memory: \033[1;33m%d bytes\033[0m\n", am);
+                    printf("   Compression Ratio: \033[1;32m%.2f%%\033[0m\n", compression_ratio);
+                    printf("   Memory Saved: \033[1;32m%d bytes\033[0m\n", pm-am);
+                    printf("   [\033[1;32m███████████████████████████████████▶\033[0m░░░░░░░░░░░░░░] 70%% - Building Symbol Table...\n\n");
+
+                    initializeErrorList();
+                    formulation(ast, NULL);
+
+                    printf("\033[1;34m┌─────────────────────────────────────────────────────────────────────────────┐\033[0m\n");
+                    printf("\033[1;34m│\033[0m  \033[1mPHASE 3: SEMANTIC ANALYSIS\033[0m                                                 \033[1;34m│\033[0m\n");
+                    printf("\033[1;34m└─────────────────────────────────────────────────────────────────────────────┘\033[0m\n");
+                    printf("   [\033[1;32m████████████████████████████████████████▶\033[0m░░░░░░░░░] 80%% - Type Checking...\n");
+
+                    tbStack= (tableStack*)malloc(sizeof(tableStack));
+                    tbStack->top = NULL;
+                    tbStack->size = 0;
+                    tbStack->bottom = NULL;
+                    typeChecker(ast, tbStack);
+
+                    if(semErrorList->head!=NULL)
+                    {
+                        printf("   \033[1;31m✗ Semantic Analysis: FAILED\033[0m\n");
+                        printf("\n   Found \033[1;31m%d Semantic Errors\033[0m:\n", semErrorList->numErrors);
+                        printSemanticErrors();
+                        printf("\n\033[1;31m╔══════════════════════════════════════════════════════════════════════════════╗\033[0m\n");
+                        printf("\033[1;31m║\033[0m                    COMPILATION FAILED - SEMANTIC ERRORS                      \033[1;31m║\033[0m\n");
+                        printf("\033[1;31m╚══════════════════════════════════════════════════════════════════════════════╝\033[0m\n");
+                        break;
+                    }
+
+                    printf("   \033[1;32m✓ Semantic Analysis: PASSED\033[0m\n");
+                    printf("   \033[1;32m✓ Type Checking: PASSED\033[0m\n\n");
+
+                    printf("\033[1;34m┌─────────────────────────────────────────────────────────────────────────────┐\033[0m\n");
+                    printf("\033[1;34m│\033[0m  \033[1mPHASE 4: CODE GENERATION\033[0m                                                   \033[1;34m│\033[0m\n");
+                    printf("\033[1;34m└─────────────────────────────────────────────────────────────────────────────┘\033[0m\n");
+                    printf("   [\033[1;32m██████████████████████████████████████████████████\033[0m] 100%% - Generating Assembly...\n");
+
+                    tbStack->top = NULL; tbStack->size = 0; tbStack->bottom = NULL;
+                    ircode = generateIRCode(ast, NULL, tbStack);
+
+                    tbStack->top = NULL; tbStack->size = 0; tbStack->bottom = NULL;
+                    newNode = (tableStackEle *)malloc(sizeof(tableStackEle));
+                    newNode->ele = symbolTableRoot;
+                    newNode->next = NULL;
+                    sympush(tbStack, newNode);
+                    symT = symbolTableRoot;
+                    fpx = fopen(argv[2], "w");
+                    pre_process(fpx);
+                    nasmRecur(ircode->code, tbStack, symT, fpx);
+                    fclose(fpx);
+
+                    printf("   \033[1;32m✓ Intermediate Code Generation: SUCCESS\033[0m\n");
+                    printf("   \033[1;32m✓ NASM Assembly Code Generation: SUCCESS\033[0m\n");
+                    printf("   → Output File: \033[1;33m%s\033[0m\n\n", argv[2]);
+
+                    end_time = clock();
+                    total_CPU_time = (end_time-start_time);
+                    total_CPU_time_in_seconds = total_CPU_time/CLOCKS_PER_SEC;
+
+                    printf("\033[1;34m┌─────────────────────────────────────────────────────────────────────────────┐\033[0m\n");
+                    printf("\033[1;34m│\033[0m  \033[1mCOMPILATION SUMMARY\033[0m                                                        \033[1;34m│\033[0m\n");
+                    printf("\033[1;34m└─────────────────────────────────────────────────────────────────────────────┘\033[0m\n");
+                    printf("   Status: \033[1;32m✓ COMPILATION SUCCESSFUL\033[0m\n");
+                    printf("   Total CPU Time: \033[1;33m%.2f ms (%.4f seconds)\033[0m\n", total_CPU_time, total_CPU_time_in_seconds);
+                    printf("   Input File: \033[1;36m%s\033[0m\n", argv[1]);
+                    printf("   Output File: \033[1;36m%s\033[0m\n\n", argv[2]);
+
+                    printf("\033[1;32m╔══════════════════════════════════════════════════════════════════════════════╗\033[0m\n");
+                    printf("\033[1;32m║\033[0m                    COMPILATION COMPLETED SUCCESSFULLY!                       \033[1;32m║\033[0m\n");
+                    printf("\033[1;32m╚══════════════════════════════════════════════════════════════════════════════╝\033[0m\n");
+
+                    break;
+
+            default:
             		printf("Wrong Option entered \n ");
         }
 
@@ -838,7 +984,8 @@ int main(int argc, char * argv[])
         printf("Press 6 : Activation Record Size\n");
         printf("Press 7 : Static and Dynamic Arrays\n");
         printf("Press 8 : Error Reporting and total compile time\n");
-        printf("Press 9 : Code Generation\n");   
+        printf("Press 9 : Code Generation\n");
+        printf("Press 10: COMPILER STATISTICS DASHBOARD (All Stats in One View)\n");
         printf("What would you like to do? Option: ");
         scanf("%d",&option);
         printf("----------------------------------------------------------------------------------------------\n");
